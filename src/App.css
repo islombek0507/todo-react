@@ -6,7 +6,58 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.root{
+  text-align: center;
+}
+.List{
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  
+}
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  text-align: left;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.chek{
+  text-align: right;
+  max-width: 50px;
+}
+.btn__edit{
+  display: block;
+  border: none;
+  background-color: red;
+  width: 80px;
+  margin-left: 15px;
+  height: 40px;
+  border: 1px solid red;
+  color: white;
+  font-size: 24px;
+  border-radius: 5px;
+}
+.btn__edit:hover{
+  background: transparent;
+  color: red;
+  transition: 1s ease all;
+}
+.text{
+  display: block;
+  flex-grow: 1;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+input{
+  width: 500px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: red;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
